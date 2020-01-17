@@ -10,15 +10,16 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>JSP Page</title>
+    <title>ThesisAPP</title>
 </head>
 <body>
 
-<form action="index.jsp">
-    <select name="item">
-        <option value=" one class svm">ONE CLASS SVM</option>
-        <option value="isolation forest">ISOLATION FOREST</option>
-        <option value="S.A.X.">S.A.X.</option>
+<form action="session3.jsp">
+    <select align="center" name="item">
+        <option value="svm">ONE CLASS SVM</option>
+        <option value="islforest">ISOLATION FOREST</option>
+        <option value="sax">S.A.X.</option>
+        <option value="all">ALL of them</option>
     </select>
     <input type="submit" value="Submit">
 

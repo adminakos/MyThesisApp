@@ -1,4 +1,5 @@
-<%--
+<%@ page import="java.io.BufferedReader" %>
+<%@ page import="java.io.InputStreamReader" %><%--
   Created by IntelliJ IDEA.
   User: petro
   Date: 14/1/2020
@@ -10,23 +11,85 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>JSP Page</title>
+    <title>ThesisAPP</title>
 </head>
 <body>
 
 
+
 <%
 
-    String name = request.getParameter("uname");
 
-    out.print("Welcome " + name);
+    String data =(String) session.getAttribute("data");
+
+//    session.setAttribute("user", name);      //set attribute in session
+    out.print("<br/><br/>");
+
+    if (data.equals("oil")){
 
 
-    session.setAttribute("user", name);      //set attribute in session
+        try{
+            String s = null;
+
+            Process p=Runtime.getRuntime().exec("python C:\\Users\\petro\\IdeaProjects\\Thesisbp\\vizualiseOil.py");
+            BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+            while((s = in.readLine())!= null){
+                System.out.println(s);
+
+            }
+        }catch(Exception e) {
+            e.printStackTrace();
+        }
+
+}else if (data.equals("unrate")){
 
 
+        try{
+            String s = null;
+
+            Process p=Runtime.getRuntime().exec("python C:\\Users\\petro\\IdeaProjects\\Thesisbp\\vizualiseUnempl.py");
+            BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+            while((s = in.readLine())!= null){
+                System.out.println(s);
+
+            }
+        }catch(Exception e) {
+            e.printStackTrace();
+        }
+}else if (data.equals("sales")){
+
+
+        try{
+            String s = null;
+
+            Process p=Runtime.getRuntime().exec("python C:\\Users\\petro\\IdeaProjects\\Thesisbp\\vizualise.py");
+            BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+            while((s = in.readLine())!= null){
+                System.out.println(s);
+
+            }
+        }catch(Exception e) {
+            e.printStackTrace();
+        }
+
+}
 
 %>
-<a href = "session2.jsp">Next Page</a>
+
+
+<form action="session3.jsp">
+    <h4> Choose one of the following algorithms to visualize anomallies.</h4>
+    <select align="center" name="item">
+        <option value="svm">ONE CLASS SVM</option>
+        <option value="islforest">ISOLATION FOREST</option>
+        <option value="sax">S.A.X.</option>
+        <option value="all">ALL of them</option>
+    </select>
+
+
+
+    <input type="submit" value="Anomalies">
+</form>
+
 </body>
 </html>

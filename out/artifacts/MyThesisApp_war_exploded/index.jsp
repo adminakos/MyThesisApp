@@ -12,28 +12,35 @@
 
 <html>
   <head>
-    <title>THESIS</title>
+
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>ThesisAPP</title>
   </head>
   <body>
 
 
-        <form action="session.jsp">
-            <pre>
+        <form align="center" action="info.jsp">
+
 
                 <h1>ENTER YOUR NAME</h1>
             Name  : <input type="text" name="uname">
 
+                <h3>PLEASE CHOOSE DATA SET TO VISUALIZE</h3>
 
-                <h2>PLEASE CHOOSE DATA SET TO UPLOAD</h2>
-
-                 <input type="file" id="upload" name="upload"  multiple />
+                <!--  <input type="file" id="upload" name="upload"  multiple />--!>
 
         <!-- < a href="" onclick="document.getElementById('upload').click(); return false">Upload File</a>--!>
 
-                    <input type="submit" value="Click"><br/>
-</pre>
-        </form>
+                    <!--<input type="submit" value="Click"><br/>--!>
 
+                     <select name="data">
+        <option value="oil">Crude Oil Prices Brent - Europe</option>
+        <option value="sales">Total Vehicle Sales</option>
+        <option value="unrate">Unemployment Rate</option>
+    </select>
+    <p> Click the button for data set information.</p>
+    <input type="submit" value="Info">
+</form>
 
 
   </body>
