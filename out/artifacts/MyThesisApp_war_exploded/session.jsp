@@ -6,7 +6,8 @@
   Time: 19:13
   To change this template use File | Settings | File Templates.
 --%>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%--<%@page contentType="text/html" pageEncoding="UTF-8"%>--%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,15 +24,15 @@
     String data =(String) session.getAttribute("data");
 
 //    session.setAttribute("user", name);      //set attribute in session
-    out.print("<br/><br/>");
+    out.print("<br/>hhhhhhhhhhhhhhhhhhhhhhhhhhh<br/>");
 
     if (data.equals("oil")){
 
-
+        out.print("<br/>bbbbb<br/>");
         try{
             String s = null;
 
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\petro\\IdeaProjects\\Thesisbp\\vizualiseOil.py");
+            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\thesis_python_scripts\\vizualiseOil.py");
             BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
             while((s = in.readLine())!= null){
                 System.out.println(s);
@@ -41,13 +42,13 @@
             e.printStackTrace();
         }
 
-}else if (data.equals("unrate")){
+    }else if (data.equals("unrate")){
 
 
         try{
             String s = null;
 
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\petro\\IdeaProjects\\Thesisbp\\vizualiseUnempl.py");
+            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\thesis_python_scripts\\vizualiseUnempl.py");
             BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
             while((s = in.readLine())!= null){
                 System.out.println(s);
@@ -56,13 +57,13 @@
         }catch(Exception e) {
             e.printStackTrace();
         }
-}else if (data.equals("sales")){
+    }else if (data.equals("sales")){
 
 
         try{
             String s = null;
 
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\petro\\IdeaProjects\\Thesisbp\\vizualise.py");
+            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\thesis_python_scripts\\vizualise.py");
             BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
             while((s = in.readLine())!= null){
                 System.out.println(s);
@@ -72,7 +73,7 @@
             e.printStackTrace();
         }
 
-}
+    }
 
 %>
 

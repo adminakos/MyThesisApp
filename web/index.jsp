@@ -27,11 +27,11 @@
 
                 <h3>PLEASE CHOOSE DATA SET TO VISUALIZE</h3>
 
-                <!--  <input type="file" id="upload" name="upload"  multiple />--!>
+                <!--  <input type="file" id="upload" name="upload"  multiple />-->
 
-        <!-- < a href="" onclick="document.getElementById('upload').click(); return false">Upload File</a>--!>
+        <!-- < a href="" onclick="document.getElementById('upload').click(); return false">Upload File</a>-->
 
-                    <!--<input type="submit" value="Click"><br/>--!>
+                    <!--<input type="submit" value="Click"><br/>-->
 
                      <select name="data">
         <option value="oil">Crude Oil Prices Brent - Europe</option>
