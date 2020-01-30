@@ -23,93 +23,249 @@
 
 <%
     String item =(String) session.getAttribute("item");
+    String data =(String) session.getAttribute("data");
 
 
 
+    if (item.equals("svm") ){
 
-    if (item.equals("svm")){
+        if(data.equals("oil")) {
+            try {
+                String s = null;
 
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saveSVMoil.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
 
-        try{
-            String s = null;
-
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\thesis_python_scripts\\saveSVMdataAnom.py");
-            BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
-            while((s = in.readLine())!= null){
-                System.out.println(s);
-
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-        }catch(Exception e) {
-            e.printStackTrace();
-        }
 
 
-        String filename = "C:\\Users\\Βασίλης\\IdeaProjects\\thesis_python_scripts\\svmanomalies.csv";
-        response.setContentType("application/octet-stream");
-        String disHeader = "Attachment; Filename=\"svmanomalies.csv\"";
-        response.setHeader("Content-Disposition", disHeader);
-        File fileToDownload = new File(filename);
+            String filename = "svmanomaliesoil.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"svmanomaliesoil.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
 
-        InputStream in = null;
-        OutputStream outs = response.getOutputStream();
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
 
-        try {
-            in = new BufferedInputStream
-                    (new FileInputStream(fileToDownload));
-            int ch;
-            while ((ch = in.read()) != -1) {
-                outs.write((char) ch);
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
             }
-        }
-        finally {
-            if (in != null) in.close(); // very important
-        }
 
-        outs.flush();
-        outs.close();
-        in.close();
+            outs.flush();
+            outs.close();
+            in.close();
+        }else if(data.equals("unrate")){
+
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saveSVMunempl.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            String filename = "svmanomaliesunempl.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"svmanomaliesunempl.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
+
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
+
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
+            }
+
+            outs.flush();
+            outs.close();
+            in.close();
+        }else if (data.equals("sales")){
+
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saveSVMdataAnom.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            String filename = "svmanomaliessales.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"svmanomaliessales.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
+
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
+
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
+            }
+
+            outs.flush();
+            outs.close();
+            in.close();
+        }
 
     }else if (item.equals("islforest")){
 
+        if(data.equals("oil")) {
+            try {
+                String s = null;
 
-        try{
-            String s = null;
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saveISOLoil.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
 
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\thesis_python_scripts\\saveISOLdataAnom.py");
-            BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
-            while((s = in.readLine())!= null){
-                System.out.println(s);
-
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-        }catch(Exception e) {
-            e.printStackTrace();
-        }
 
 
-        String filename = "C:\\Users\\Βασίλης\\IdeaProjects\\thesis_python_scripts\\isolationanomalies.csv";
-        response.setContentType("application/octet-stream");
-        String disHeader = "Attachment; Filename=\"isolationanomalies.csv\"";
-        response.setHeader("Content-Disposition", disHeader);
-        File fileToDownload = new File(filename);
+            String filename = "isolationanomaliesoil.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"isolationanomaliesoil.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
 
-        InputStream in = null;
-        OutputStream outs = response.getOutputStream();
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
 
-        try {
-            in = new BufferedInputStream
-                    (new FileInputStream(fileToDownload));
-            int ch;
-            while ((ch = in.read()) != -1) {
-                outs.write((char) ch);
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
             }
-        }
-        finally {
-            if (in != null) in.close(); // very important
-        }
 
-        outs.flush();
-        outs.close();
-        in.close();
+            outs.flush();
+            outs.close();
+            in.close();
+        }else if(data.equals("unrate")){
+
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saveISOLunempl.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            String filename = "isolationanomaliesunemp.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"isolationanomaliesunemp.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
+
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
+
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
+            }
+
+            outs.flush();
+            outs.close();
+            in.close();
+        }else if (data.equals("sales")){
+
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saveISOLdataAnom.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            String filename = "isolationanomaliessales.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"isolationanomaliessales.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
+
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
+
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
+            }
+
+            outs.flush();
+            outs.close();
+            in.close();
+        }
     }
 
 

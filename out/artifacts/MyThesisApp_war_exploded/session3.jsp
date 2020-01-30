@@ -20,38 +20,96 @@
     String item = request.getParameter("item");
 
     session.setAttribute("item", item);      //set attribute in session
-
+    String data =(String) session.getAttribute("data");
 
 
     if (item.equals("svm")){
 
+        if(data.equals("oil")) {
+            try {
+                String s = null;
 
-        try{
-            String str = null;
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\svmAnomOil.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
 
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\thesis_python_scripts\\svmAnom.py");
-            BufferedReader input = new BufferedReader(new InputStreamReader(p.getInputStream()));
-            while((str = input.readLine())!= null){
-                System.out.println(str);
-
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-        }catch(Exception e) {
-            e.printStackTrace();
+        }else if(data.equals("unrate")){
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\svmAnomUnempl.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }else if(data.equals("sales")){
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\svmAnom.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
         }
 
     }else if (item.equals("islforest")){
+        if(data.equals("oil")) {
+            try {
+                String s = null;
 
-        try{
-            String s = null;
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\isolationForestAnomOil.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
 
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\thesis_python_scripts\\isolationForestAnom.py");
-            BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
-            while((s = in.readLine())!= null){
-                System.out.println(s);
-
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-        }catch(Exception e) {
-            e.printStackTrace();
+        }else if(data.equals("unrate")){
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\isolationForestAnomUnempl.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }else if(data.equals("sales")){
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\isolationForestAnom.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
         }
     }else if (item.equals("sax")){
 
@@ -59,7 +117,7 @@
         try{
             String s = null;
 
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\thesis_python_scripts\\saxAnom.py");
+            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saxAnom.py");
             BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
             while((s = in.readLine())!= null){
                 System.out.println(s);
@@ -74,7 +132,7 @@
         try{
             String s = null;
 
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\thesis_python_scripts\\MyThesis.py");
+            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\MyThesis.py");
             BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
             while((s = in.readLine())!= null){
                 System.out.println(s);

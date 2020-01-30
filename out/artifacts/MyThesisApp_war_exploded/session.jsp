@@ -24,15 +24,15 @@
     String data =(String) session.getAttribute("data");
 
 //    session.setAttribute("user", name);      //set attribute in session
-    out.print("<br/>hhhhhhhhhhhhhhhhhhhhhhhhhhh<br/>");
+//    out.print("<br/>hhhhhhhhhhhhhhhhhhhhhhhhhhh<br/>");
 
     if (data.equals("oil")){
 
-        out.print("<br/>bbbbb<br/>");
+//        out.print("<br/>bbbbb<br/>");
         try{
             String s = null;
 
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\thesis_python_scripts\\vizualiseOil.py");
+            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\vizualiseOil.py");
             BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
             while((s = in.readLine())!= null){
                 System.out.println(s);
@@ -48,7 +48,7 @@
         try{
             String s = null;
 
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\thesis_python_scripts\\vizualiseUnempl.py");
+            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\vizualiseUnempl.py");
             BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
             while((s = in.readLine())!= null){
                 System.out.println(s);
@@ -63,7 +63,7 @@
         try{
             String s = null;
 
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\thesis_python_scripts\\vizualise.py");
+            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\vizualise.py");
             BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
             while((s = in.readLine())!= null){
                 System.out.println(s);
