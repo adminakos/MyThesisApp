@@ -5,10 +5,10 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import OneClassSVM
 
 
-url ="C:/Users/Βασίλης/IdeaProjects/thesis_python_scripts/Data sets/Total_Vehicle_Sales.csv"
+url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Total_Vehicle_Sales.csv"
 dataset = pd.read_csv(url)
 
-outliers_fraction = 0.30
+outliers_fraction = 0.25
 
 data = dataset[['Value']]
 scaler = StandardScaler()
@@ -18,7 +18,9 @@ data = pd.DataFrame(np_scaled)
 model = OneClassSVM(nu=outliers_fraction, kernel='rbf', gamma=0.01)
 
 model.fit(data)
+
 dataset['anomaly'] = pd.Series(model.predict(data))
+
 print(dataset)
 
 a = dataset.loc[dataset['anomaly'] == -1, ['Date', 'Value']] #anomaly

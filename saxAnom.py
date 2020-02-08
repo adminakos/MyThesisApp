@@ -5,7 +5,7 @@ from tslearn.piecewise import PiecewiseAggregateApproximation
 from tslearn.piecewise import SymbolicAggregateApproximation
 
 
-url ="C:/Users/Βασίλης/IdeaProjects/thesis_python_scripts/Data sets/Total_Vehicle_Sales.csv"
+url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Total_Vehicle_Sales.csv"
 
 df = pd.read_csv(url)
 series = np.array(df.Value)

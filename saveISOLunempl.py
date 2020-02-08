@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
-url ="C:/Users/Βασίλης/IdeaProjects/thesis_python_scripts/Data sets/Unemployment_Rate.csv"
+url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Unemployment_Rate.csv"
 dataset = pd.read_csv(url)
 data = dataset[['Value']]
 outliers_fraction = 0.25

@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-url ="C:/Users/Βασίλης/IdeaProjects/thesis_python_scripts/Data sets/Unemployment_Rate.csv"
+url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Unemployment_Rate.csv"
 print(url)
 
 df = pd.read_csv(url)

@@ -8,12 +8,22 @@
   <component name="ChangeListManager">
     <list default="true" id="788ba151-d894-49fc-8a22-3fb6fedb6859" name="Default Changelist" comment="vcs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/session.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/session.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/session2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/session2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/session3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/session3.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isolationForestAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/isolationForestAnom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isolationForestAnomOil.py" beforeDir="false" afterPath="$PROJECT_DIR$/isolationForestAnomOil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isolationForestAnomUnempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/isolationForestAnomUnempl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveISOLdataAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveISOLdataAnom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveISOLoil.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveISOLoil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveISOLunempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveISOLunempl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveSVMdataAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveSVMdataAnom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveSVMoil.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveSVMoil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveSVMunempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveSVMunempl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saxAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/saxAnom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svmAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/svmAnom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svmAnomOil.py" beforeDir="false" afterPath="$PROJECT_DIR$/svmAnomOil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svmAnomUnempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/svmAnomUnempl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vizualise.py" beforeDir="false" afterPath="$PROJECT_DIR$/vizualise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vizualiseOil.py" beforeDir="false" afterPath="$PROJECT_DIR$/vizualiseOil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vizualiseUnempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/vizualiseUnempl.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,35 +51,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4607">
-              <caret line="277" column="7" selection-start-line="277" selection-start-column="7" selection-end-line="277" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/session3.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="126" column="32" lean-forward="true" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,6 +60,21 @@
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>thesis_python_scripts</find>
+      <find>Βασίλης</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Bill</replace>
+      <replace>MyThesis</replace>
+      <replace>MyThesisApp</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Βασίλης\IdeaProjects\MyThesisApp</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,6 +97,9 @@
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp" />
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp" />
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp" />
+        <option value="$PROJECT_DIR$/saveISOLoil.py" />
+        <option value="$PROJECT_DIR$/svmAnomOil.py" />
+        <option value="$PROJECT_DIR$/svmAnom.py" />
       </list>
     </option>
   </component>
@@ -132,26 +132,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>Python</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>PyInterpreterInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -159,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -170,41 +152,23 @@
             </path>
             <path>
               <item name="MyThesisApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyThesisApp" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyThesisApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyThesisApp" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyThesisApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyThesisApp" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="MyThesisApp_war_exploded" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyThesisApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyThesisApp" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580400644945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580995918442" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
@@ -248,6 +212,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/WEB-INF/VisualizeScript.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="svmAnom" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyThesisApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/svmAnom.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -595,12 +581,14 @@
     </configuration>
     <list>
       <item itemvalue="Python.VisualizeScript" />
+      <item itemvalue="Python.svmAnom" />
       <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="Tomcat Server.index.jsp" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="Python.svmAnom" />
         <item itemvalue="Python.VisualizeScript" />
       </list>
     </recent_temporary>
@@ -628,7 +616,10 @@
       <workItem from="1579299362426" duration="9925000" />
       <workItem from="1580068836543" duration="623000" />
       <workItem from="1580122860088" duration="5100000" />
-      <workItem from="1580396878784" duration="3738000" />
+      <workItem from="1580396878784" duration="8055000" />
+      <workItem from="1580986898884" duration="4545000" />
+      <workItem from="1581080168028" duration="305000" />
+      <workItem from="1581188185161" duration="69000" />
     </task>
     <servers />
   </component>
@@ -644,7 +635,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59793000" />
+    <option name="totallyTimeSpent" value="69029000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -657,9 +648,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48769897" visible="true" weight="0.13020134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48769897" visible="true" weight="0.13557047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -670,14 +660,14 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4852349" visible="true" weight="0.32577905" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48456377" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49946696" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.4946695" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5147651" side_tool="true" visible="true" weight="0.32577905" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51543623" side_tool="true" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -689,7 +679,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32942432" />
-      <window_info anchor="right" id="SciView" order="7" visible="true" weight="0.1590604" />
+      <window_info anchor="right" id="SciView" order="7" visible="true" weight="0.0013422819" />
       <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
@@ -779,6 +769,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/session3.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
@@ -788,15 +785,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4607">
-          <caret line="277" column="7" selection-start-line="277" selection-start-column="7" selection-end-line="277" selection-end-column="7" />
+        <state relative-caret-position="255">
+          <caret line="16" column="71" lean-forward="true" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp">
+    <entry file="file://$PROJECT_DIR$/vizualiseOil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vizualiseUnempl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveSVMoil.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveISOLoil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svmAnomOil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vizualise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svmAnom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+          <folding>
+            <element signature="e#1#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyThesis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -831,7 +896,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 3.7 (faceRecognition) interpreter library</last-edited>
+          <last-edited>Python 3.7 interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -860,7 +925,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

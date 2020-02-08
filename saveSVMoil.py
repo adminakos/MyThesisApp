@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import OneClassSVM
 
 
-url ="C:/Users/Βασίλης/IdeaProjects/thesis_python_scripts/Data sets/Crude_Oil_Prices_Brent.csv"
+url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Crude_Oil_Prices_Brent.csv"
 dataset = pd.read_csv(url)
 
 outliers_fraction = 0.30
