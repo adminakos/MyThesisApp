@@ -8,22 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="788ba151-d894-49fc-8a22-3fb6fedb6859" name="Default Changelist" comment="vcs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/isolationForestAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/isolationForestAnom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/isolationForestAnomOil.py" beforeDir="false" afterPath="$PROJECT_DIR$/isolationForestAnomOil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/isolationForestAnomUnempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/isolationForestAnomUnempl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saveISOLdataAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveISOLdataAnom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saveISOLoil.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveISOLoil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saveISOLunempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveISOLunempl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saveSVMdataAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveSVMdataAnom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saveSVMoil.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveSVMoil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saveSVMunempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveSVMunempl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saxAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/saxAnom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svmAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/svmAnom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svmAnomOil.py" beforeDir="false" afterPath="$PROJECT_DIR$/svmAnomOil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svmAnomUnempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/svmAnomUnempl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vizualise.py" beforeDir="false" afterPath="$PROJECT_DIR$/vizualise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vizualiseOil.py" beforeDir="false" afterPath="$PROJECT_DIR$/vizualiseOil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vizualiseUnempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/vizualiseUnempl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/session.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/session.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/session2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/session2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/session3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/session3.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,7 +38,44 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/savekmeansTotalV.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="39" selection-start-line="39" selection-end-line="39" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/savekmeansOil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sacekmeansUnemplR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,17 +113,20 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/VisualizeScript.py" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/info.jsp" />
-        <option value="$PROJECT_DIR$/web/session.jsp" />
-        <option value="$PROJECT_DIR$/web/session2.jsp" />
-        <option value="$PROJECT_DIR$/web/session3.jsp" />
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/index.jsp" />
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/info.jsp" />
-        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp" />
-        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp" />
-        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp" />
         <option value="$PROJECT_DIR$/saveISOLoil.py" />
         <option value="$PROJECT_DIR$/svmAnomOil.py" />
         <option value="$PROJECT_DIR$/svmAnom.py" />
+        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp" />
+        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp" />
+        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp" />
+        <option value="$PROJECT_DIR$/web/session.jsp" />
+        <option value="$PROJECT_DIR$/web/session2.jsp" />
+        <option value="$PROJECT_DIR$/web/session3.jsp" />
+        <option value="$PROJECT_DIR$/savekmeansTotalV.py" />
+        <option value="$PROJECT_DIR$/savekmeansOil.py" />
+        <option value="$PROJECT_DIR$/sacekmeansUnemplR.py" />
       </list>
     </option>
   </component>
@@ -142,7 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,19 +179,42 @@
             </path>
             <path>
               <item name="MyThesisApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyThesisApp" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyThesisApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyThesisApp" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyThesisApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyThesisApp" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="MyThesisApp_war_exploded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyThesisApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyThesisApp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyThesisApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580995918442" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581273614455" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -620,6 +670,7 @@
       <workItem from="1580986898884" duration="4545000" />
       <workItem from="1581080168028" duration="305000" />
       <workItem from="1581188185161" duration="69000" />
+      <workItem from="1581270746801" duration="2009000" />
     </task>
     <servers />
   </component>
@@ -635,7 +686,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69029000" />
+    <option name="totallyTimeSpent" value="71038000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -648,8 +699,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48769897" visible="true" weight="0.13557047" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48769897" visible="true" weight="0.1375839" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -660,14 +712,14 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48456377" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48389262" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49946696" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.4946695" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51543623" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5161074" side_tool="true" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -727,66 +779,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/info.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="77" column="43" lean-forward="true" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/session.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/session2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="270" lean-forward="true" selection-end-line="277" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/session3.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="126" column="32" lean-forward="true" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="71" lean-forward="true" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -807,9 +803,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saveSVMoil.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/saveISOLoil.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -861,6 +854,99 @@
         <state>
           <folding>
             <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="40" column="29" lean-forward="true" selection-end-line="96" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/session.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="346" column="23" lean-forward="true" selection-end-line="396" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/session2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="396" column="7" selection-start-line="396" selection-start-column="7" selection-end-line="396" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="153" column="35" lean-forward="true" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/session3.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="198" lean-forward="true" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveSVMoil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="23" column="40" selection-start-line="23" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/savekmeansTotalV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="39" selection-start-line="39" selection-end-line="39" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/savekmeansOil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sacekmeansUnemplR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

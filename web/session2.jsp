@@ -266,6 +266,125 @@
             outs.close();
             in.close();
         }
+    } else if ((item.equals("kmeans"))){
+
+        if(data.equals("oil")) {
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\savekmeansOil.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            String filename = "kmeansOil.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"ikmeansOil.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
+
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
+
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
+            }
+
+            outs.flush();
+            outs.close();
+            in.close();
+        }else if(data.equals("unrate")){
+
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\sacekmeansUnemplR.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            String filename = "kmeansUnempl.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"kmeansUnempl.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
+
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
+
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
+            }
+
+            outs.flush();
+            outs.close();
+            in.close();
+        }else if (data.equals("sales")){
+
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\savekmeansTotalV.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            String filename = "kmeansTotal.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"kmeansTotal.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
+
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
+
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
+            }
+
+            outs.flush();
+            outs.close();
+            in.close();
+        }
     }
 
 

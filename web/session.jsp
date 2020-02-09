@@ -83,6 +83,7 @@
     <select align="center" name="item">
         <option value="svm">ONE CLASS SVM</option>
         <option value="islforest">ISOLATION FOREST</option>
+        <option value="kmeans">KMEANS</option>
         <option value="sax">S.A.X.</option>
         <option value="all">ALL of them</option>
     </select>

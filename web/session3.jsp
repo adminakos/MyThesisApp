@@ -127,6 +127,49 @@
             e.printStackTrace();
         }
 
+    }else if (item.equals("kmeans")){
+        if(data.equals("oil")) {
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\kmeans2Oil.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }else if(data.equals("unrate")){
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\kmeans2unempl.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }else if(data.equals("sales")){
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\kmeans2.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }
     }else if (item.equals("all")){
 
         try{
