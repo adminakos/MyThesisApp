@@ -114,6 +114,47 @@
             }catch(Exception e) {
                 e.printStackTrace();
             }
+            String csvFile = "C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Unemployment_Rate.csv";
+            BufferedReader br = null;
+            String line = "";
+            String csvSplitBy = ",";
+
+            int count = 0;
+
+
+            try {
+
+                out.print("<textarea rows="+30+" cols="+35+">");
+                br = new BufferedReader(new FileReader(csvFile));
+                while ((line = br.readLine()) != null) {
+
+                    // use comma as separator
+                    String[] values = line.split(csvSplitBy);
+
+                    out.print( " [Date=" + values[0] + " , Value=" + values[1] + "]");
+
+                    count += 1;
+                }
+
+                out.print("</textarea >");
+
+
+
+//            out.print("<p id=\"demo\"></p>");
+
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } finally {
+                if (br != null) {
+                    try {
+                        br.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
         }else if (data.equals("sales")){
 
 
@@ -130,7 +171,50 @@
                 e.printStackTrace();
             }
 
+            String csvFile = "C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Total_Vehicle_Sales.csv";
+            BufferedReader br = null;
+            String line = "";
+            String csvSplitBy = ",";
+
+            int count = 0;
+
+
+            try {
+
+                out.print("<textarea rows="+30+" cols="+35+">");
+                br = new BufferedReader(new FileReader(csvFile));
+                while ((line = br.readLine()) != null) {
+
+                    // use comma as separator
+                    String[] values = line.split(csvSplitBy);
+
+                    out.print( " [Date=" + values[0] + " , Value=" + values[1] + "]");
+
+                    count += 1;
+                }
+
+                out.print("</textarea >");
+
+
+
+//            out.print("<p id=\"demo\"></p>");
+
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } finally {
+                if (br != null) {
+                    try {
+                        br.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+
         }
+
 
     %>
 

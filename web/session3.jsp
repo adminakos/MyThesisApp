@@ -194,5 +194,9 @@
     <input type="submit" value="Download">
 
 </form>
+<form action="compare.jsp">
+    <input type="submit" value="Compare Algorithms">
+
+</form>
 </body>
 </html>
