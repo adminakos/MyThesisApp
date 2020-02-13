@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 from sklearn.cluster import KMeans
 
 
-url = "C:/Users/Βασίλης/IdeaProjects/thesis_python_scripts/Data sets/Unemployment_Rate.csv"
+url = "C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Unemployment_Rate.csv"
 df = pd.read_csv(url)
 
 

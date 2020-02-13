@@ -78,7 +78,7 @@
             try{
                 String s = null;
 
-                Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\Sales_betteralgo.py");
+                Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\TotalVeh_betteralgo.py");
                 BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
                 while((s = in.readLine())!= null){
                     out.print(s+"<br/<br/>");

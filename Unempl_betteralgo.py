@@ -9,7 +9,7 @@ from sklearn.cluster import KMeans
 expected = pd.read_csv("C:/Users/Βασίλης/IdeaProjects/MyThesisApp/JavaOut.csv")
 x= len(expected)
 
-url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Crude_Oil_Prices_Brent.csv"
+url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Unemployment_Rate.csv"
 dataset = pd.read_csv(url)
 
 outliers_fraction = 0.30
@@ -40,13 +40,13 @@ for i in range(z):
     elif y < x:
         predictedsvm = predictedsvm.append(pd.Series([0,'',0], index=predictedsvm.columns ), ignore_index=True)
 msleSVM = mean_squared_log_error(expected, predictedsvm['Value'])
-print("One Class SVM msle: %f" %msleSVM)
+print(msleSVM)
 # ----------------------------------------------------------------------------------------------------------
 expectedisol = pd.read_csv("C:/Users/Βασίλης/IdeaProjects/MyThesisApp/JavaOut.csv")
 x1= len(expectedisol)
 
 
-url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Crude_Oil_Prices_Brent.csv"
+url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Unemployment_Rate.csv"
 dataset = pd.read_csv(url)
 data = dataset[['Value']]
 outliers_fraction = 0.25
@@ -72,7 +72,7 @@ for i in range(z1):
     elif y1 < x1:
         predictedisol = predictedisol.append(pd.Series([0,'',0], index=predictedisol.columns ), ignore_index=True)
 msleISOL = mean_squared_log_error(expectedisol, predictedisol['Value'])
-print("Isolation Forest msle: %f" %msleISOL)
+print(msleISOL)
 # ----------------------------------------------------------------------------------------------------------
 expectedkmeans = pd.read_csv("C:/Users/Βασίλης/IdeaProjects/MyThesisApp/JavaOut.csv")
 
@@ -80,7 +80,7 @@ x2= len(expectedkmeans)
 
 
 
-url = "C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Crude_Oil_Prices_Brent.csv"
+url = "C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Unemployment_Rate.csv"
 df = pd.read_csv(url)
 
 
@@ -125,7 +125,7 @@ for i in range(z2):
         predictedkmeans = predictedkmeans.append(pd.Series([0,0], index=predictedkmeans.columns ), ignore_index=True)
 
 msleKMEANS = mean_squared_log_error(expectedkmeans, predictedkmeans['Value'])
-print("K-Means msle: %f" %msleKMEANS)
+print(msleKMEANS)
 
 if msleSVM < msleISOL and msleSVM < msleKMEANS:
     print("One Class SVM is working better based on mean squared logarithmic error!")
