@@ -117,7 +117,7 @@
         try{
             String s = null;
 
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saxAnom.py");
+            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\Thesis.py");
             BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
             while((s = in.readLine())!= null){
                 System.out.println(s);
