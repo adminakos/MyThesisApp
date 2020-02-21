@@ -285,7 +285,7 @@
 
             String filename = "kmeansOil.csv";
             response.setContentType("application/octet-stream");
-            String disHeader = "Attachment; Filename=\"ikmeansOil.csv\"";
+            String disHeader = "Attachment; Filename=\"kmeansOil.csv\"";
             response.setHeader("Content-Disposition", disHeader);
             File fileToDownload = new File(filename);
 
@@ -385,9 +385,126 @@
             outs.close();
             in.close();
         }
+    }else if (item.equals("zscore")){
+
+        if(data.equals("oil")) {
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saveOilZscore.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            String filename = "oilZscoreAnom.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"oilZscoreAnom.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
+
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
+
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
+            }
+
+            outs.flush();
+            outs.close();
+            in.close();
+        }else if(data.equals("unrate")){
+
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saveUNEMPLZscore.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            String filename = "UnemplZscoreAnom.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"UnemplZscoreAnom.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
+
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
+
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
+            }
+
+            outs.flush();
+            outs.close();
+            in.close();
+        }else if (data.equals("sales")){
+
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saveTVZscore.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            String filename = "TotalVZscoreAnom.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"TotalVZscoreAnom.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
+
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
+
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
+            }
+
+            outs.flush();
+            outs.close();
+            in.close();
+        }
     }
-
-
 %>
 
 

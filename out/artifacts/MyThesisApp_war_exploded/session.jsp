@@ -223,7 +223,8 @@
     <br/>Write anomalous Values separated with comma: <br/>
     <textarea align="center" name="text"  rows=5 cols=50></textarea>
     <br/>
-    <input align="center" type="submit">
+    <input align="center" type="submit" value="Not now">
+    <input align="center" type="submit" value="Submit">
 
 </form>
 

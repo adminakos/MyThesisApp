@@ -56,7 +56,7 @@
         <option value="islforest">ISOLATION FOREST</option>
         <option value="kmeans">KMEANS</option>
         <option value="sax">S.A.X.</option>
-        <option value="knn">K-NN</option>
+        <option value="zscore">Z-score</option>
     </select>
 
 

@@ -8,6 +8,20 @@
   <component name="ChangeListManager">
     <list default="true" id="788ba151-d894-49fc-8a22-3fb6fedb6859" name="Default Changelist" comment="vcs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oil_betteralgo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oil_betteralgo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TotalVeh_betteralgo.py" beforeDir="false" afterPath="$PROJECT_DIR$/TotalVeh_betteralgo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unempl_betteralgo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unempl_betteralgo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/compare.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/compare.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/save.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/compare.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/compare.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/save.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/session.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/session.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/session2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/session2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/session3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/session3.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,39 +49,21 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-424">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/save.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1580">
-              <caret line="267" column="9" lean-forward="true" selection-start-line="267" selection-start-column="9" selection-end-line="267" selection-end-column="9" />
+            <state relative-caret-position="247">
+              <caret line="512" column="7" lean-forward="true" selection-start-line="512" selection-start-column="7" selection-end-line="512" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/session2.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="94">
+              <caret line="273" lean-forward="true" selection-start-line="273" selection-end-line="273" />
             </state>
           </provider>
         </entry>
@@ -112,28 +108,31 @@
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/info.jsp" />
         <option value="$PROJECT_DIR$/saveISOLoil.py" />
         <option value="$PROJECT_DIR$/svmAnom.py" />
-        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp" />
         <option value="$PROJECT_DIR$/savekmeansTotalV.py" />
         <option value="$PROJECT_DIR$/savekmeansOil.py" />
         <option value="$PROJECT_DIR$/sacekmeansUnemplR.py" />
         <option value="$PROJECT_DIR$/web/save" />
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/save" />
-        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/compare.jsp" />
-        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp" />
-        <option value="$PROJECT_DIR$/Unempl_betteralgo.py" />
-        <option value="$PROJECT_DIR$/TotalVeh_betteralgo.py" />
-        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/save.jsp" />
-        <option value="$PROJECT_DIR$/web/compare.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/info.jsp" />
-        <option value="$PROJECT_DIR$/web/save.jsp" />
-        <option value="$PROJECT_DIR$/web/session.jsp" />
-        <option value="$PROJECT_DIR$/web/session2.jsp" />
-        <option value="$PROJECT_DIR$/web/session3.jsp" />
         <option value="$PROJECT_DIR$/svmAnomOil.py" />
         <option value="$PROJECT_DIR$/isolationForestAnomOil.py" />
+        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/save.jsp" />
+        <option value="$PROJECT_DIR$/web/save.jsp" />
+        <option value="$PROJECT_DIR$/TotalVeh_betteralgo.py" />
         <option value="$PROJECT_DIR$/Oil_betteralgo.py" />
+        <option value="$PROJECT_DIR$/Unempl_betteralgo.py" />
+        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp" />
+        <option value="$PROJECT_DIR$/web/session.jsp" />
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp" />
+        <option value="$PROJECT_DIR$/web/session3.jsp" />
+        <option value="$PROJECT_DIR$/web/compare.jsp" />
+        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/compare.jsp" />
+        <option value="$PROJECT_DIR$/saveOilZscore.py" />
+        <option value="$PROJECT_DIR$/saveTVZscore.py" />
+        <option value="$PROJECT_DIR$/saveUNEMPLZscore.py" />
+        <option value="$PROJECT_DIR$/web/session2.jsp" />
+        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp" />
       </list>
     </option>
   </component>
@@ -176,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,14 +220,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581893185152" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thesis_python_scripts" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582305764509" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -696,8 +695,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.isolationForestAnomOil" />
         <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="Python.isolationForestAnomOil" />
         <item itemvalue="Python.Oil_betteralgo" />
         <item itemvalue="Python.svmAnom" />
         <item itemvalue="Python.VisualizeScript" />
@@ -736,6 +735,7 @@
       <workItem from="1581531829125" duration="7010000" />
       <workItem from="1581596594731" duration="4291000" />
       <workItem from="1581614152167" duration="908000" />
+      <workItem from="1582296713681" duration="8791000" />
     </task>
     <servers />
   </component>
@@ -751,7 +751,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107857000" />
+    <option name="totallyTimeSpent" value="116648000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -766,7 +766,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48769897" visible="true" weight="0.14563759" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48769897" visible="true" weight="0.147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -777,14 +777,14 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4805369" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.47986576" weight="0.41359773" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49946696" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.4946695" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51946306" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5201342" side_tool="true" visible="true" weight="0.41359773" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -814,20 +814,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/VisualizeScript.py" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -932,13 +918,6 @@
     <entry file="file://$PROJECT_DIR$/saveSVMdataAnom.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/saveSVMoil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="40" selection-start-line="23" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/saveSVMunempl.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -993,47 +972,6 @@
     <entry file="file://$PROJECT_DIR$/JavaOut.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TotalVeh_betteralgo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Unempl_betteralgo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/compare.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/compare.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -1045,34 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/save.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/session.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="230" column="7" selection-start-line="230" selection-start-column="7" selection-end-line="230" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/session2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="396" column="7" selection-start-line="396" selection-start-column="7" selection-end-line="396" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/session3.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
         </state>
       </provider>
     </entry>
@@ -1124,10 +1034,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Oil_betteralgo.py">
+    <entry file="file://$PROJECT_DIR$/z_score.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/save.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TotalVeh_betteralgo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unempl_betteralgo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -1136,8 +1072,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/save.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="51">
+          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1148,24 +1084,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp">
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-424">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="18">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp">
+    <entry file="file://$PROJECT_DIR$/web/session.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1580">
-          <caret line="267" column="9" lean-forward="true" selection-start-line="267" selection-start-column="9" selection-end-line="267" selection-end-column="9" />
+        <state relative-caret-position="398">
+          <caret line="226" column="55" selection-start-line="226" selection-start-column="55" selection-end-line="226" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="224" column="9" lean-forward="true" selection-start-line="224" selection-start-column="9" selection-end-line="226" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/session3.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1369">
+          <caret line="266" lean-forward="true" selection-start-line="266" selection-end-line="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oil_betteralgo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/compare.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="102" column="50" lean-forward="true" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/compare.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="119" column="7" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="332">
+          <caret line="255" column="4" selection-start-line="255" selection-start-column="4" selection-end-line="255" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveSVMoil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="23" column="40" selection-start-line="23" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveTVZscore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveUNEMPLZscore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveOilZscore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/session2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="273" lean-forward="true" selection-start-line="273" selection-end-line="273" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="512" column="7" lean-forward="true" selection-start-line="512" selection-start-column="7" selection-end-line="512" selection-end-column="7" />
         </state>
       </provider>
     </entry>

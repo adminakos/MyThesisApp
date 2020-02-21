@@ -15,7 +15,7 @@ from saxpy.znorm import znorm
 
 #
 #
-url = "C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Total_Vehicle_Sales.csv" #dialog box and return the path to the selected file
+url = "C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Unemployment_Rate.csv" #dialog box and return the path to the selected file
 print(url)
 df = pd.read_csv(url)
 series = np.array(df.Value)
@@ -28,7 +28,7 @@ def ts_to_string(series, cuts):
     for i in range(0, len(series)):
         num = series[i]
 
-    # if teh number below 0, start from the bottom, or else from the top
+        # if teh number below 0, start from the bottom, or else from the top
         if(num >= 0):
             j = a_size - 1
             while ((j > 0) and (cuts[j] >= num)):

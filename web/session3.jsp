@@ -113,19 +113,50 @@
         }
     }else if (item.equals("sax")){
 
+        if(data.equals("oil")) {
+            try {
+                String s = null;
 
-        try{
-            String s = null;
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saxThesisOil.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
 
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saxAnom.py");
-            BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
-            while((s = in.readLine())!= null){
-                System.out.println(s);
-
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-        }catch(Exception e) {
-            e.printStackTrace();
+        }else if(data.equals("unrate")){
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saxThesisUnempl.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }else if(data.equals("sales")){
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\Thesis.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
         }
+
+
 
     }else if (item.equals("kmeans")){
         if(data.equals("oil")) {
@@ -138,6 +169,7 @@
                     System.out.println(s);
 
                 }
+
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -170,19 +202,49 @@
             }
 
         }
-    }else if (item.equals("knn")){
+    }else if (item.equals("zscore")){
 
-        try{
-            String s = null;
+        if(data.equals("oil")) {
+            try {
+                String s = null;
 
-            Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\knn.py");
-            BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
-            while((s = in.readLine())!= null){
-                System.out.println(s);
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\oilZ_score.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
 
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-        }catch(Exception e) {
-            e.printStackTrace();
+        }else if(data.equals("unrate")){
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\z_score.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }else if(data.equals("sales")){
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\TVZ_score.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
         }
 
     }

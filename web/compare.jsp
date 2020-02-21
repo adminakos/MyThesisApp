@@ -48,10 +48,17 @@
 
                 Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\Oil_betteralgo.py");
                 BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                if(in== null){
+
+                    out.print("You cant compare the algorithms, because you left the anomalies text area  blank. If you want to compare go back and fill it :) ");
+                    out.print("<input type=\"button\" onclick=\"window.location.href = 'http://localhost:8080/session.jsp';\" value=\"Back\"/>");
+                    out.print("<br/<br/>");
+                }
                 while((s = in.readLine())!= null){
                     out.print(s+"<br/<br/>");
 
                 }
+
             }catch(Exception e) {
                 e.printStackTrace();
             }
@@ -65,10 +72,17 @@
 
                 Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\Unempl_betteralgo.py");
                 BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                if(in== null){
+
+                    out.print("You cant compare the algorithms, because you left the anomalies text area  blank. If you want to compare go back and fill it :) ");
+                    out.print("<input type=\"button\" onclick=\"window.location.href = 'http://localhost:8080/session.jsp';\" value=\"Back\"/>");
+                    out.print("<br/<br/>");
+                }
                 while((s = in.readLine())!= null){
                     out.print(s+"<br/<br/>");
 
                 }
+
             }catch(Exception e) {
                 e.printStackTrace();
             }
@@ -80,10 +94,17 @@
 
                 Process p=Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\TotalVeh_betteralgo.py");
                 BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                if(in== null){
+
+                    out.print("You cant compare the algorithms, because you left the anomalies text area  blank. If you want to compare go back and fill it :) ");
+                    out.print("<input type=\"button\" onclick=\"window.location.href = 'http://localhost:8080/session.jsp';\" value=\"Back\"/>");
+                    out.print("<br/<br/>");
+                }
                 while((s = in.readLine())!= null){
                     out.print(s+"<br/<br/>");
 
                 }
+
             }catch(Exception e) {
                 e.printStackTrace();
             }
