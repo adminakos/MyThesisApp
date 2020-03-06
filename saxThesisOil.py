@@ -12,6 +12,7 @@ import numpy as np
 from saxpy.visit_registry import VisitRegistry
 from saxpy.distance import early_abandoned_dist
 from saxpy.znorm import znorm
+import matplotlib.pyplot as plt
 
 #
 #
@@ -20,90 +21,90 @@ print(url)
 df = pd.read_csv(url)
 series = np.array(df.Value)
 #
-def ts_to_string(series, cuts):
-    """A straightforward num-to-string conversion."""
-    a_size = len(cuts)
-    sax = list()
-
-    for i in range(0, len(series)):
-        num = series[i]
-
-        # if teh number below 0, start from the bottom, or else from the top
-        if(num >= 0):
-            j = a_size - 1
-            while ((j > 0) and (cuts[j] >= num)):
-                j = j - 1
-            sax.append(idx2letter(j))
-        else:
-            j = 1
-            while (j < a_size and cuts[j] <= num):
-                j = j + 1
-            sax.append(idx2letter(j-1))
-
-    return ''.join(sax)
-
-
-def is_mindist_zero(a, b):
-    """Check mindist."""
-    if len(a) != len(b):
-        return 0
-    else:
-        for i in range(0, len(b)):
-            if abs(ord(a[i]) - ord(b[i])) > 1:
-                return 0
-    return 1
-
-
-# def sax_by_chunking(series, paa_size, alphabet_size=4, z_threshold=0.01):
-#     """Simple chunking conversion implementation."""
-#     paa_rep = paa(znorm(series, z_threshold), paa_size)
+# def ts_to_string(series, cuts):
+#     """A straightforward num-to-string conversion."""
+#     a_size = len(cuts)
+#     sax = list()
+#
+#     for i in range(0, len(series)):
+#         num = series[i]
+#
+#         # if teh number below 0, start from the bottom, or else from the top
+#         if(num >= 0):
+#             j = a_size - 1
+#             while ((j > 0) and (cuts[j] >= num)):
+#                 j = j - 1
+#             sax.append(idx2letter(j))
+#         else:
+#             j = 1
+#             while (j < a_size and cuts[j] <= num):
+#                 j = j + 1
+#             sax.append(idx2letter(j-1))
+#
+#     return ''.join(sax)
+#
+#
+# def is_mindist_zero(a, b):
+#     """Check mindist."""
+#     if len(a) != len(b):
+#         return 0
+#     else:
+#         for i in range(0, len(b)):
+#             if abs(ord(a[i]) - ord(b[i])) > 1:
+#                 return 0
+#     return 1
+#
+#
+# # def sax_by_chunking(series, paa_size, alphabet_size=4, z_threshold=0.01):
+# #     """Simple chunking conversion implementation."""
+# #     paa_rep = paa(znorm(series, z_threshold), paa_size)
+# #     cuts = cuts_for_asize(alphabet_size)
+# #     return ts_to_string(paa_rep, cuts)
+#
+#
+# def sax_via_window(series, win_size=30, paa_size=4, alphabet_size=3,
+#                    nr_strategy='none', z_threshold=0.01):
+#     """Simple via window conversion implementation."""
 #     cuts = cuts_for_asize(alphabet_size)
-#     return ts_to_string(paa_rep, cuts)
-
-
-def sax_via_window(series, win_size=30, paa_size=4, alphabet_size=3,
-                   nr_strategy='none', z_threshold=0.01):
-    """Simple via window conversion implementation."""
-    cuts = cuts_for_asize(alphabet_size)
-    sax = defaultdict(list)
-
-    prev_word = ''
-
-    for i in range(0, len(series) - win_size):
-
-        sub_section = series[i:(i+win_size)]
-
-        zn = znorm(sub_section, z_threshold)
-
-        paa_rep = paa(zn, paa_size)
-
-        curr_word = ts_to_string(paa_rep, cuts)
-
-        if '' != prev_word:
-            if 'exact' == nr_strategy and prev_word == curr_word:
-                print("aaaa")
-                continue
-
-            elif 'mindist' == nr_strategy and \
-                    is_mindist_zero(prev_word, curr_word):
-                print("bbbb")
-                continue
-
-        prev_word = curr_word
-
-        sax[curr_word].append(i)
-
-
-    return sax
-
-saxres=sax_via_window(series)
-print("-----------------------------------------------------------------------------")
-print(saxres.keys())
-print("-----------------------------------------------------------------------------")
-print(saxres.values())
-
-print("-----------------------------------------------------------------------------")
-print(saxres)
+#     sax = defaultdict(list)
+#
+#     prev_word = ''
+#
+#     for i in range(0, len(series) - win_size):
+#
+#         sub_section = series[i:(i+win_size)]
+#
+#         zn = znorm(sub_section, z_threshold)
+#
+#         paa_rep = paa(zn, paa_size)
+#
+#         curr_word = ts_to_string(paa_rep, cuts)
+#
+#         if '' != prev_word:
+#             if 'exact' == nr_strategy and prev_word == curr_word:
+#                 print("aaaa")
+#                 continue
+#
+#             elif 'mindist' == nr_strategy and \
+#                     is_mindist_zero(prev_word, curr_word):
+#                 print("bbbb")
+#                 continue
+#
+#         prev_word = curr_word
+#
+#         sax[curr_word].append(i)
+#
+#
+#     return sax
+#
+# saxres=sax_via_window(series)
+# print("-----------------------------------------------------------------------------")
+# print(saxres.keys())
+# print("-----------------------------------------------------------------------------")
+# print(saxres.values())
+#
+# print("-----------------------------------------------------------------------------")
+# print(saxres)
 
 # print(*saxres, sep = "\n")
 #ousiastikadhmiourgw ena dictionary
@@ -141,6 +142,7 @@ print(saxres)
 
 
 """Discord discovery routines."""
+
 
 
 def find_best_discord_brute_force(series, win_size, global_registry,
@@ -186,10 +188,10 @@ def find_best_discord_brute_force(series, win_size, global_registry,
 
         outer_idx = outerRegistry.get_next_unvisited()
 
-    return (best_so_far_index, best_so_far_distance)
+    return (best_so_far_index)
+# print(len(series))
 
-
-def find_discords_brute_force(series, win_size = 30, num_discords=10,
+def find_discords_brute_force(series, win_size = 50, num_discords=0.15*len(series),
                               z_threshold=0.01):
     """Early-abandoned distance-based discord discovery."""
     discords = list()
@@ -203,22 +205,40 @@ def find_discords_brute_force(series, win_size = 30, num_discords=10,
                                                     globalRegistry,
                                                     z_threshold)
 
-        if -1 == bestDiscord[0]:
+        if -1 == bestDiscord:
             break
 
         discords.append(bestDiscord)
 
-        mark_start = bestDiscord[0] - win_size
+        mark_start = bestDiscord - win_size
         if 0 > mark_start:
             mark_start = 0
 
-        mark_end = bestDiscord[0] + win_size
+        mark_end = bestDiscord + win_size
         '''if len(series) < mark_end:
             mark_end = len(series)'''
 
         globalRegistry.mark_visited_range(mark_start, mark_end)
 
     return discords
+p = df.index.values
+df.insert( 0, column="new",value = p)
+y=len(df['Value'])
+# print(df.index)
+xaa=find_discords_brute_force(series)
 
-print(find_discords_brute_force(series))
-print(series)
+df2  =pd.DataFrame(xaa, columns= ['Value'])
+
+x=len(find_discords_brute_force(series))
+z=abs(y-x)
+for i in range(z):
+    df2 = df2.append(pd.Series([0], index=df2.columns ), ignore_index=True)
+
+df = df.assign(anomaly=df['new'].isin(df2['Value']).astype(int))
+print(df.new)
+colors = ['r' if anomaly==1 else 'b' for anomaly in df.anomaly]
+
+plt.plot(df['Date'], df['Value'], color='blue', linewidth=1)
+
+plt.scatter(df['Date'], df['Value'], color=colors, linewidths=0)
+plt.show()

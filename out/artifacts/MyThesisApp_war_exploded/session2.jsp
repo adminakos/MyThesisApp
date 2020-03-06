@@ -504,6 +504,125 @@
             outs.close();
             in.close();
         }
+    }else if (item.equals("sax")){
+
+        if(data.equals("oil")) {
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saveOilsax.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            String filename = "oilsaxAnom.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"oilsaxAnom.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
+
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
+
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
+            }
+
+            outs.flush();
+            outs.close();
+            in.close();
+        }else if(data.equals("unrate")){
+
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saveUNEMPLsax.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            String filename = "UnemplsaxAnom.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"UnemplsaxAnom.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
+
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
+
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
+            }
+
+            outs.flush();
+            outs.close();
+            in.close();
+        }else if (data.equals("sales")){
+
+            try {
+                String s = null;
+
+                Process p = Runtime.getRuntime().exec("python C:\\Users\\Βασίλης\\IdeaProjects\\MyThesisApp\\saveTVsax.py");
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                while ((s = in.readLine()) != null) {
+                    System.out.println(s);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            String filename = "TotalVsaxAnom.csv";
+            response.setContentType("application/octet-stream");
+            String disHeader = "Attachment; Filename=\"TotalVsaxAnom.csv\"";
+            response.setHeader("Content-Disposition", disHeader);
+            File fileToDownload = new File(filename);
+
+            InputStream in = null;
+            OutputStream outs = response.getOutputStream();
+
+            try {
+                in = new BufferedInputStream
+                        (new FileInputStream(fileToDownload));
+                int ch;
+                while ((ch = in.read()) != -1) {
+                    outs.write((char) ch);
+                }
+            } finally {
+                if (in != null) in.close(); // very important
+            }
+
+            outs.flush();
+            outs.close();
+            in.close();
+        }
     }
 %>
 

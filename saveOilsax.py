@@ -1,27 +1,17 @@
-# # from fuzzywuzzy import fuzz
-# import itertools
-import matplotlib.pyplot as plt
-import pandas as pd
-from collections import defaultdict
-from saxpy.strfunc import idx2letter
-from saxpy.znorm import znorm
-from saxpy.paa import paa
-from saxpy.alphabet import cuts_for_asize
-from tkinter.filedialog import askopenfilename
 import numpy as np
+import pandas as pd
+
 from saxpy.visit_registry import VisitRegistry
 from saxpy.distance import early_abandoned_dist
 from saxpy.znorm import znorm
 
 #
 #
-url = "C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Total_Vehicle_Sales.csv" #dialog box and return the path to the selected file
+url = "C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Crude_Oil_Prices_Brent.csv" #dialog box and return the path to the selected file
 print(url)
 df = pd.read_csv(url)
 print(df.head())
 series = np.array(df.Value)
-
-
 
 
 """Discord discovery routines."""
@@ -121,10 +111,6 @@ for i in range(z):
     df2 = df2.append(pd.Series([0], index=df2.columns ), ignore_index=True)
 
 df = df.assign(anomaly=df['new'].isin(df2['Value']).astype(int))
-print(df.new)
-colors = ['r' if anomaly==1 else 'b' for anomaly in df.anomaly]
+a = df.loc[df['anomaly'] == 1, ['Date', 'Value']] #anomaly
 
-plt.plot(df['Date'], df['Value'], color='blue', linewidth=1)
-
-plt.scatter(df['Date'], df['Value'], color=colors, linewidths=0)
-plt.show()
+a.to_csv('oilsaxAnom.csv')
