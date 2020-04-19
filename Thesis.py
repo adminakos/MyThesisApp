@@ -27,7 +27,7 @@ series = np.array(df.Value)
 """Discord discovery routines."""
 
 
-def find_best_discord_brute_force(series, win_size, global_registry,
+def find_best_discord_brute_force(series, win_size , global_registry,
                                   z_threshold=0.01):
     """Early-abandoned distance-based discord discovery."""
     best_so_far_distance = -1.0
@@ -70,10 +70,10 @@ def find_best_discord_brute_force(series, win_size, global_registry,
 
         outer_idx = outerRegistry.get_next_unvisited()
 
-    return (best_so_far_index)
+    return best_so_far_index
 # print(len(series))
 
-def find_discords_brute_force(series, win_size = 50, num_discords=0.15*len(series),
+def find_discords_brute_force(series, win_size = 1, num_discords=12,
                               z_threshold=0.01):
     """Early-abandoned distance-based discord discovery."""
     discords = list()

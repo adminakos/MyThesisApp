@@ -7,7 +7,7 @@ from saxpy.znorm import znorm
 
 #
 #
-url = "C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Total_Vehicle_Sales.csv" #dialog box and return the path to the selected file
+url = "C:/Users/Βασίλης/IdeaProjects/thesis_python_scripts/Data sets/Total_Vehicle_Sales.csv" #dialog box and return the path to the selected file
 print(url)
 df = pd.read_csv(url)
 print(df.head())
@@ -63,7 +63,7 @@ def find_best_discord_brute_force(series, win_size, global_registry,
     return (best_so_far_index)
 # print(len(series))
 
-def find_discords_brute_force(series, win_size = 50, num_discords=0.15*len(series),
+def find_discords_brute_force(series, win_size = 1, num_discords=12,
                               z_threshold=0.01):
     """Early-abandoned distance-based discord discovery."""
     discords = list()

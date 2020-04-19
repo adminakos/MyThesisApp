@@ -8,10 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="788ba151-d894-49fc-8a22-3fb6fedb6859" name="Default Changelist" comment="vcs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaOut.csv" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOut.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Thesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saxThesisOil.py" beforeDir="false" afterPath="$PROJECT_DIR$/saxThesisOil.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saxThesisUnempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/saxThesisUnempl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/session2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/session2.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="525" column="65" selection-start-line="525" selection-start-column="55" selection-end-line="525" selection-end-column="65" />
+            <state relative-caret-position="332">
+              <caret line="224" selection-start-line="224" selection-end-line="224" />
             </state>
           </provider>
         </entry>
@@ -112,8 +112,8 @@
         <option value="$PROJECT_DIR$/saveOilZscore.py" />
         <option value="$PROJECT_DIR$/saveTVZscore.py" />
         <option value="$PROJECT_DIR$/saveUNEMPLZscore.py" />
-        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp" />
         <option value="$PROJECT_DIR$/web/session2.jsp" />
+        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp" />
       </list>
     </option>
   </component>
@@ -156,7 +156,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,6 +200,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -718,6 +718,13 @@
       <workItem from="1581614152167" duration="908000" />
       <workItem from="1582296713681" duration="8791000" />
       <workItem from="1583508115736" duration="4517000" />
+      <workItem from="1586526516004" duration="1429000" />
+      <workItem from="1586612565009" duration="1209000" />
+      <workItem from="1586786572432" duration="2209000" />
+      <workItem from="1586868585519" duration="776000" />
+      <workItem from="1586959474739" duration="1262000" />
+      <workItem from="1587130541404" duration="2278000" />
+      <workItem from="1587299033328" duration="967000" />
     </task>
     <servers />
   </component>
@@ -733,7 +740,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121165000" />
+    <option name="totallyTimeSpent" value="131295000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,8 +753,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48769897" visible="true" weight="0.14966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48769897" visible="true" weight="0.16375838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -758,14 +766,14 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.47986576" weight="0.41359773" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.47919464" weight="0.41359773" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49946696" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.4946695" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5201342" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.52080536" side_tool="true" visible="true" weight="0.41359773" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -795,13 +803,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/WEB-INF/info.jsp" />
     <entry file="file://$PROJECT_DIR$/kmeans2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-202">
@@ -1168,10 +1169,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/java/jdk1.8.0_151/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="254" selection-start-line="254" selection-end-line="254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/java/jdk1.8.0_151/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thesis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="525" column="65" selection-start-line="525" selection-start-column="55" selection-end-line="525" selection-end-column="65" />
+        <state relative-caret-position="332">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
         </state>
       </provider>
     </entry>
