@@ -8,10 +8,13 @@
   <component name="ChangeListManager">
     <list default="true" id="788ba151-d894-49fc-8a22-3fb6fedb6859" name="Default Changelist" comment="vcs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaOut.csv" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOut.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isolationForestAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/isolationForestAnom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveOilsax.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveOilsax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveTVsax.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveTVsax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveUNEMPLsax.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveUNEMPLsax.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saxThesisOil.py" beforeDir="false" afterPath="$PROJECT_DIR$/saxThesisOil.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saxThesisUnempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/saxThesisUnempl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svmAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/svmAnom.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,17 +42,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="224" selection-start-line="224" selection-end-line="224" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,7 +81,6 @@
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/index.jsp" />
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/info.jsp" />
         <option value="$PROJECT_DIR$/saveISOLoil.py" />
-        <option value="$PROJECT_DIR$/svmAnom.py" />
         <option value="$PROJECT_DIR$/savekmeansTotalV.py" />
         <option value="$PROJECT_DIR$/savekmeansOil.py" />
         <option value="$PROJECT_DIR$/sacekmeansUnemplR.py" />
@@ -114,6 +106,8 @@
         <option value="$PROJECT_DIR$/saveUNEMPLZscore.py" />
         <option value="$PROJECT_DIR$/web/session2.jsp" />
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp" />
+        <option value="$PROJECT_DIR$/svmAnom.py" />
+        <option value="$PROJECT_DIR$/isolationForestAnom.py" />
       </list>
     </option>
   </component>
@@ -156,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,7 +194,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -724,7 +718,8 @@
       <workItem from="1586868585519" duration="776000" />
       <workItem from="1586959474739" duration="1262000" />
       <workItem from="1587130541404" duration="2278000" />
-      <workItem from="1587299033328" duration="967000" />
+      <workItem from="1587299033328" duration="970000" />
+      <workItem from="1587396631704" duration="2314000" />
     </task>
     <servers />
   </component>
@@ -740,7 +735,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131295000" />
+    <option name="totallyTimeSpent" value="133612000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -753,9 +748,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48769897" visible="true" weight="0.16375838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48769897" visible="true" weight="0.16577181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -912,15 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vizualise.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -968,16 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svmAnom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-          <folding>
-            <element signature="e#1#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/svmAnomOil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -987,15 +962,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/svmAnomUnempl.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isolationForestAnom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/isolationForestAnomUnempl.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1194,6 +1160,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svmAnom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#1#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isolationForestAnom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -7,7 +7,7 @@ from saxpy.znorm import znorm
 
 #
 #
-url = "C:/Users/Βασίλης/IdeaProjects/thesis_python_scripts/Data sets/Unemployment_Rate.csv" #dialog box and return the path to the selected file
+url = "C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Unemployment_Rate.csv" #dialog box and return the path to the selected file
 print(url)
 df = pd.read_csv(url)
 print(df.head())
