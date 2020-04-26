@@ -8,7 +8,7 @@ from sklearn.svm import OneClassSVM
 url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Crude_Oil_Prices_Brent.csv"
 dataset = pd.read_csv(url)
 
-outliers_fraction = 0.30
+outliers_fraction = 0.055
 
 data = dataset[['Value']]
 scaler = StandardScaler()

@@ -35,4 +35,5 @@ threshold = distance.nlargest(number_of_outliers).min()
 # anomaly1 contain the anomaly result of the above method Cluster (0:normal, 1:anomaly)
 df['anomaly1'] = (distance >= threshold).astype(int)
 
-df.loc[df['anomaly1'] == 1 , ['Date', 'Value']].to_csv("kmeansOil.csv")
+a=df.loc[df['anomaly1'] == 1 , ['Date', 'Value']]
+a.to_csv("kmeansOil.csv")

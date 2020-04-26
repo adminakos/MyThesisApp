@@ -8,7 +8,7 @@ from sklearn.svm import OneClassSVM
 url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Total_Vehicle_Sales.csv"
 dataset = pd.read_csv(url)
 
-outliers_fraction = 0.30
+outliers_fraction = 0.05
 
 data = dataset[['Value']]
 scaler = StandardScaler()
@@ -22,5 +22,5 @@ dataset['anomaly'] = pd.Series(model.predict(data))
 print(dataset)
 
 a = dataset.loc[dataset['anomaly'] == -1, ['Date', 'Value']] #anomaly
-
+print()
 a.to_csv('svmanomaliessales.csv')

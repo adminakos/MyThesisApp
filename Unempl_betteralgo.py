@@ -1,10 +1,14 @@
 from sklearn.svm import OneClassSVM
 from sklearn.metrics import mean_squared_log_error
 from sklearn.ensemble import IsolationForest
-import pandas as pd
 from sklearn.preprocessing import StandardScaler
-import numpy as np
 from sklearn.cluster import KMeans
+import pandas as pd
+import numpy as np
+from saxpy.visit_registry import VisitRegistry
+from saxpy.distance import early_abandoned_dist
+from saxpy.znorm import znorm
+
 
 expected = pd.read_csv("C:/Users/Βασίλης/IdeaProjects/MyThesisApp/JavaOut.csv")
 x= len(expected)
@@ -12,7 +16,7 @@ x= len(expected)
 url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Unemployment_Rate.csv"
 dataset = pd.read_csv(url)
 
-outliers_fraction = 0.30
+outliers_fraction = 0.05
 
 data = dataset[['Value']]
 scaler = StandardScaler()
@@ -49,7 +53,7 @@ x1= len(expectedisol)
 url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Unemployment_Rate.csv"
 dataset = pd.read_csv(url)
 data = dataset[['Value']]
-outliers_fraction = 0.25
+outliers_fraction = 0.06
 scaler = StandardScaler()
 np_scaled = scaler.fit_transform(data)
 data = pd.DataFrame(np_scaled)
@@ -125,7 +129,7 @@ for i in range(z2):
         predictedkmeans = predictedkmeans.append(pd.Series([0,0], index=predictedkmeans.columns ), ignore_index=True)
 
 msleKMEANS = mean_squared_log_error(expectedkmeans, predictedkmeans['Value'])
-print("K-Means msle: %f"%msleKMEANS)
+print("KMeans msle: %f"%msleKMEANS)
 # ----------------------------------------------------------------------------------------------------------
 expectedZscore = pd.read_csv("C:/Users/Βασίλης/IdeaProjects/MyThesisApp/JavaOut.csv")
 
@@ -149,17 +153,17 @@ def detect_outlier(data_1):
     threshold=1.7
     mean_1 = np.mean(data_1)
     std_1 =np.std(data_1)
-
+    count=0
 
     for y in data_1:
         z_score= (y - mean_1)/std_1
         if np.abs(z_score) > threshold:
             outliers.append(y)
+            count+=1
 
     return outliers
 
 outlier_datapoints = detect_outlier(series)
-
 
 y=len(df['Value'])
 df2  =pd.DataFrame(outlier_datapoints, columns= ['Value'])
@@ -186,14 +190,132 @@ for i in range(z5):
         predictedZscore = predictedZscore.append(pd.Series([0,0], index=predictedZscore.columns ), ignore_index=True)
 
 msleZscore = mean_squared_log_error(expectedZscore, predictedZscore['Value'])
-print("Z-score msle: %f"%msleZscore)
+print("Zscore msle: %f"%msleZscore)
+#-----------------------------------------------------------------------------------------------------------
+expectedSAX = pd.read_csv("C:/Users/Βασίλης/IdeaProjects/MyThesisApp/JavaOut.csv")
+
+xs= len(expectedSAX)
+url = "C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Unemployment_Rate.csv" #dialog box and return the path to the selected file
+
+df = pd.read_csv(url)
+
+series = np.array(df.Value)
+
+def find_best_discord_brute_force(series, win_size , global_registry,
+                                  z_threshold=0.01):
+    """Early-abandoned distance-based discord discovery."""
+    best_so_far_distance = -1.0
+    best_so_far_index = -1
+
+    outerRegistry = global_registry.clone()
+
+    outer_idx = outerRegistry.get_next_unvisited()
+
+    while ~np.isnan(outer_idx):
+
+        outerRegistry.mark_visited(outer_idx)
+
+        candidate_seq = znorm(series[outer_idx:(outer_idx+win_size)],
+                              z_threshold)
+
+        nnDistance = np.inf
+        innerRegistry = VisitRegistry(len(series) - win_size)
+
+        inner_idx = innerRegistry.get_next_unvisited()
+
+        while ~np.isnan(inner_idx):
+            innerRegistry.mark_visited(inner_idx)
+
+            if abs(inner_idx - outer_idx) > win_size:
+
+                curr_seq = znorm(series[inner_idx:(inner_idx+win_size)],
+                                 z_threshold)
+                dist = early_abandoned_dist(candidate_seq,
+                                            curr_seq, nnDistance)
+
+                if (~np.isnan(dist)) and (dist < nnDistance):
+                    nnDistance = dist
+
+            inner_idx = innerRegistry.get_next_unvisited()
+
+        if ~(np.inf == nnDistance) and (nnDistance > best_so_far_distance):
+            best_so_far_distance = nnDistance
+            best_so_far_index = outer_idx
+
+        outer_idx = outerRegistry.get_next_unvisited()
+
+    return best_so_far_index
+# print(len(series))
+
+def find_discords_brute_force(series, win_size = 1, num_discords=12,
+                              z_threshold=0.01):
+    """Early-abandoned distance-based discord discovery."""
+    discords = list()
+
+    globalRegistry = VisitRegistry(len(series))
+    globalRegistry.mark_visited_range(len(series) - win_size, len(series))
+
+    while (len(discords) < num_discords):
+
+        bestDiscord = find_best_discord_brute_force(series, win_size,
+                                                    globalRegistry,
+                                                    z_threshold)
+
+        if -1 == bestDiscord:
+            break
+
+        discords.append(bestDiscord)
+
+        mark_start = bestDiscord - win_size
+        if 0 > mark_start:
+            mark_start = 0
+
+        mark_end = bestDiscord + win_size
+        '''if len(series) < mark_end:
+            mark_end = len(series)'''
+
+        globalRegistry.mark_visited_range(mark_start, mark_end)
+
+    return discords
+
+p = df.index.values
+df.insert( 0, column="new",value = p)
+ys1=len(df['Value'])
+xaa=find_discords_brute_force(series)
+
+df2  =pd.DataFrame(xaa, columns= ['Value'])
+
+xs1=len(find_discords_brute_force(series))
+zs1=abs(ys1-xs1)
+for i in range(zs1):
+    df2 = df2.append(pd.Series([0], index=df2.columns ), ignore_index=True)
+
+df = df.assign(anomaly=df['new'].isin(df2['Value']).astype(int))
+
+a=df.loc[df['anomaly'] == 1 , ['Date', 'Value']]
+predictedSAX = a
+
+ys= len(predictedSAX['Value'])
+
+zs= abs(ys-xs)
+
+for i in range(zs):
+    if xs < ys:
+        expectedSAX = expectedSAX.append(pd.Series([0], index=expectedSAX.columns ), ignore_index=True)
+    elif ys < xs:
+        predictedSAX = predictedSAX.append(pd.Series([0,0], index=predictedSAX.columns ), ignore_index=True)
+
+msleSAX = mean_squared_log_error(expectedSAX, predictedSAX['Value'])
+print("S.A.X. msle: %f"%msleSAX)
 
 
-if msleSVM < msleISOL and msleSVM < msleKMEANS and msleSVM < msleZscore:
+if msleSVM < msleISOL and msleSVM < msleKMEANS and msleSVM < msleZscore and msleSVM < msleSAX:
     print("One Class SVM is working better based on mean squared logarithmic error!")
-elif msleISOL < msleSVM and msleISOL < msleKMEANS and msleISOL < msleZscore:
+elif msleISOL < msleSVM and msleISOL < msleKMEANS and msleISOL < msleZscore and msleISOL < msleSAX:
     print("Isolation Forest is working better based on mean squared logarithmic error!")
-elif msleKMEANS < msleSVM and msleKMEANS < msleISOL and msleKMEANS < msleZscore:
+elif msleKMEANS < msleSVM and msleKMEANS < msleISOL and msleKMEANS < msleZscore and msleKMEANS < msleSAX:
     print("K-Means is working better based on mean squared logarithmic error!")
-elif msleZscore < msleSVM and msleZscore < msleISOL and msleZscore < msleKMEANS:
+elif msleZscore < msleSVM and msleZscore < msleISOL and msleZscore < msleKMEANS and msleZscore < msleSAX:
     print("Z-score is working better based on mean squared logarithmic error!")
+elif msleSAX < msleZscore and msleSAX < msleSVM and msleSAX < msleISOL and msleSAX < msleKMEANS:
+    print("S.A.X. is working better based on mean squared logarithmic error!")

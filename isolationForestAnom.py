@@ -2,6 +2,8 @@ from sklearn.ensemble import IsolationForest
 import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import mean_squared_error
+from math import sqrt
 
 url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Total_Vehicle_Sales.csv"
 dataset = pd.read_csv(url)
@@ -24,3 +26,10 @@ ax2.scatter(a['Date'],a['Value'], color='red', label = 'Anomaly Detection Isolat
 plt.legend()
 
 plt.show()
+xx = dataset.loc[dataset['anomaly2'] == -1]
+yy = dataset['anomaly2'].mean()
+print(yy*100)
+print(xx.count())
+print(dataset['anomaly2'].count())
+# rmse = sqrt(mean_squared_error(xx,dataset['anomaly2']))
+# print(rmse)

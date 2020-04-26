@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 url ="C:/Users/Βασίλης/IdeaProjects/MyThesisApp/Data sets/Unemployment_Rate.csv"
 dataset = pd.read_csv(url)
 data = dataset[['Value']]
-outliers_fraction = 0.25
+outliers_fraction = 0.05
 scaler = StandardScaler()
 np_scaled = scaler.fit_transform(data)
 data = pd.DataFrame(np_scaled)

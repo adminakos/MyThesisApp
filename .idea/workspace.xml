@@ -8,13 +8,25 @@
   <component name="ChangeListManager">
     <list default="true" id="788ba151-d894-49fc-8a22-3fb6fedb6859" name="Default Changelist" comment="vcs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaOut.csv" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOut.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oil_betteralgo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oil_betteralgo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TotalVeh_betteralgo.py" beforeDir="false" afterPath="$PROJECT_DIR$/TotalVeh_betteralgo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unempl_betteralgo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unempl_betteralgo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/isolationForestAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/isolationForestAnom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saveOilsax.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveOilsax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saveTVsax.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveTVsax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saveUNEMPLsax.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveUNEMPLsax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saxThesisOil.py" beforeDir="false" afterPath="$PROJECT_DIR$/saxThesisOil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saxThesisUnempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/saxThesisUnempl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svmAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/svmAnom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isolationForestAnomOil.py" beforeDir="false" afterPath="$PROJECT_DIR$/isolationForestAnomOil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isolationForestAnomUnempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/isolationForestAnomUnempl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/compare.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/compare.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveISOLdataAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveISOLdataAnom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveISOLoil.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveISOLoil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveISOLunempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveISOLunempl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveSVMdataAnom.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveSVMdataAnom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveSVMoil.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveSVMoil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveSVMunempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveSVMunempl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveTVZscore.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveTVZscore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveUNEMPLZscore.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveUNEMPLZscore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/savekmeansOil.py" beforeDir="false" afterPath="$PROJECT_DIR$/savekmeansOil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svmAnomOil.py" beforeDir="false" afterPath="$PROJECT_DIR$/svmAnomOil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svmAnomUnempl.py" beforeDir="false" afterPath="$PROJECT_DIR$/svmAnomUnempl.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,7 +54,41 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TotalVeh_betteralgo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Unempl_betteralgo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Oil_betteralgo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="677">
+              <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,15 +138,11 @@
         <option value="$PROJECT_DIR$/isolationForestAnomOil.py" />
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/save.jsp" />
         <option value="$PROJECT_DIR$/web/save.jsp" />
-        <option value="$PROJECT_DIR$/TotalVeh_betteralgo.py" />
-        <option value="$PROJECT_DIR$/Oil_betteralgo.py" />
-        <option value="$PROJECT_DIR$/Unempl_betteralgo.py" />
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session.jsp" />
         <option value="$PROJECT_DIR$/web/session.jsp" />
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session3.jsp" />
         <option value="$PROJECT_DIR$/web/session3.jsp" />
         <option value="$PROJECT_DIR$/web/compare.jsp" />
-        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/compare.jsp" />
         <option value="$PROJECT_DIR$/saveOilZscore.py" />
         <option value="$PROJECT_DIR$/saveTVZscore.py" />
         <option value="$PROJECT_DIR$/saveUNEMPLZscore.py" />
@@ -108,12 +150,17 @@
         <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp" />
         <option value="$PROJECT_DIR$/svmAnom.py" />
         <option value="$PROJECT_DIR$/isolationForestAnom.py" />
+        <option value="$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/compare.jsp" />
+        <option value="$PROJECT_DIR$/saveOilsax.py" />
+        <option value="$PROJECT_DIR$/TotalVeh_betteralgo.py" />
+        <option value="$PROJECT_DIR$/Unempl_betteralgo.py" />
+        <option value="$PROJECT_DIR$/Oil_betteralgo.py" />
       </list>
     </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
@@ -140,7 +187,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
+    <option name="x" value="375" />
+    <option name="y" value="350" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -150,7 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,25 +231,20 @@
             </path>
             <path>
               <item name="MyThesisApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyThesisApp" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyThesisApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582305764509" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thesis_python_scripts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -720,6 +763,9 @@
       <workItem from="1587130541404" duration="2278000" />
       <workItem from="1587299033328" duration="970000" />
       <workItem from="1587396631704" duration="2314000" />
+      <workItem from="1587463192932" duration="2036000" />
+      <workItem from="1587471019630" duration="42000" />
+      <workItem from="1587911021354" duration="10904000" />
     </task>
     <servers />
   </component>
@@ -735,7 +781,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133612000" />
+    <option name="totallyTimeSpent" value="146594000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,8 +794,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48769897" visible="true" weight="0.16577181" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48769897" visible="true" weight="0.17785235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -760,14 +807,14 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.47919464" weight="0.41359773" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4771812" visible="true" weight="0.07932011" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49946696" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.4946695" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.52080536" side_tool="true" visible="true" weight="0.41359773" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5228188" side_tool="true" visible="true" weight="0.07932011" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -797,148 +844,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kmeans2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kmeans2Oil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kmeans2unempl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyThesis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-848">
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sacekmeansUnemplR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saveISOLdataAnom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saveISOLoil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saveISOLunempl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/savekmeansOil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/savekmeansTotalV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="39" selection-start-line="39" selection-end-line="39" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saveSVMdataAnom.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saveSVMunempl.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saxAnom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vizualise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vizualiseUnempl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vizualiseOil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/save" />
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/save" />
-    <entry file="file://$PROJECT_DIR$/JavaOut.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -953,68 +858,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svmAnomOil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svmAnomUnempl.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isolationForestAnomUnempl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isolationForestAnomOil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_score.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/save.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TotalVeh_betteralgo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Unempl_betteralgo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1032,64 +879,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Oil_betteralgo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/compare.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="102" column="50" lean-forward="true" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saveSVMoil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="23" column="40" selection-start-line="23" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saveTVZscore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saveUNEMPLZscore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saveOilZscore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/compare.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="119" column="7" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1149,13 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Thesis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/session2.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -1163,9 +949,194 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MyThesisApp_war_exploded/compare.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="91" column="16" lean-forward="true" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isolationForestAnom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isolationForestAnomOil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isolationForestAnomUnempl.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kmeans2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kmeans2Oil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyThesis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oilZ_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-615">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sacekmeansUnemplR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveISOLdataAnom.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveISOLoil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveISOLunempl.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/savekmeansOil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/savekmeansTotalV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="39" selection-start-line="39" selection-end-line="39" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveOilZscore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveSVMdataAnom.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveSVMoil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="23" column="40" selection-start-line="23" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveSVMunempl.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveTVZscore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveTVsax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveUNEMPLZscore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveOilsax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="65" column="66" lean-forward="true" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveUNEMPLsax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saxAnom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-258">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saxThesisOil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3060" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saxThesisUnempl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3111" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/svm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-256">
+        <state relative-caret-position="-309">
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -1174,20 +1145,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/svmAnom.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="119">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svmAnomOil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svmAnomUnempl.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TVZ_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#1#32#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/isolationForestAnom.py">
+    <entry file="file://$PROJECT_DIR$/z_score.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thesis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="109" selection-start-line="109" selection-end-line="111" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TotalVeh_betteralgo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unempl_betteralgo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oil_betteralgo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
